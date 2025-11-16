@@ -1,61 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>脚本密码</title>
     <meta name="password" content="fenwan2024">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5; /* 修正颜色 */
-        }
-        .password-box {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            margin-top: 50px;
-        }
-        .password {
-            font-size: 24px;
-            font-weight: bold;
-            color: #e74c3c;
-            margin: 20px 0;
-            padding: 10px;
-            background: #f8f9fa; /* 修正颜色 */
-            border-radius: 5px;
-        }
-        .info {
-            color: #666;
-            font-size: 14px;
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
-    <div class="password-box">
-        <h1>纷玩岛脚本密码</h1>
-        <p>请在脚本中输入以下密码：</p>
-        <div class="password" id="password">fenwan2024</div>
-        <div class="info">
-            更新时间：2024-01-01<br>
-            有效期：长期有效
-        </div>
-    </div>
-
-    <!-- 隐藏的密码元素，供脚本提取 -->
+    <div>密码：fenwan2024</div>
     <div style="display:none">
-        <span id="script-password">fenwan2024</span>
+        <span id="password">fenwan2024</span>
         <meta name="password" content="fenwan2024">
     </div>
-
-    <script>
-        window.scriptPassword = "fenwan2024";
-    </script>
+    <script>window.scriptPassword = "fenwan2024";</script>
 </body>
 </html>
